@@ -2,7 +2,49 @@ FLOWCHART
 
 ## Extrusion Process Flow Diagram
 
-![alt text](<Screenshot 2025-11-10 130937.png>)
+```plantuml
+@startuml
+title Linear Extrusion Process Flow
+skinparam backgroundColor transparent
+skinparam participantPadding 20
+
+participant "Extruder" as extruder
+participant "Linear Rail" as rail
+participant "Press" as press
+participant "Haul Off" as haul_off
+participant "Cutter" as cutter
+
+== Initialization ==
+extruder -> rail : Check home position
+rail -> rail : Move to start position
+press -> press : Ensure open position
+
+== Production Cycle ==
+group Continuous Process
+    extruder -> extruder : Start material feed
+    extruder -> haul_off : Synchronize speed
+    
+    loop Every cycle
+        rail -> press : Position 0 reached
+        press -> press : Close mold
+        rail -> rail : Move to end position
+        
+        alt Rail at end position
+            press -> press : Open mold
+            rail -> rail : Return to start
+            cutter -> cutter : Cut product
+        end
+    end
+end
+
+== Emergency Stop ==
+note over extruder, cutter
+    Any component can trigger E-stop
+    All movements stop immediately
+end note
+
+@enduml
+```
 
 This diagram illustrates the linear extrusion process flow, showing the interaction between:
 - Extruder

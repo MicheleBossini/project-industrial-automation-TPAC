@@ -1,7 +1,5 @@
 # Risk assessment
 
-<<<<<<< HEAD
-=======
 
 ```plantuml
 @startuml
@@ -53,4 +51,3 @@ This diagram illustrates the linear extrusion process flow, showing the interact
 - Cutter
 
 The process includes initialization, continuous production cycle, and emergency stop handling.
->>>>>>> cedaceddfc6d474502f40940270c1ab106634478

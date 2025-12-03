@@ -6,6 +6,8 @@ STATE DIAGRAM:
 
 ```plantuml
 @startuml
+
+
 title STATE DIAGRAM - MATERIAL
 left to right direction
 
@@ -26,7 +28,7 @@ CONSOLIDATED --> [*]
 @enduml
 ```
 
-MAIN FUNCTION OF THE PROCESS:
+FUNCTIONS OF THE PROCESS:
 
 
 ```plantuml
@@ -52,7 +54,7 @@ COMPOSITE INTO SEMI-FINISHED SHEETS"
 
 ```
 
-SUBFUNCTION FOR EACH FUNCTION:
+SUBFUNCTIONS FOR EACH FUNCTION:
 
 
   - CHANGE SHAPE
@@ -60,8 +62,9 @@ SUBFUNCTION FOR EACH FUNCTION:
 
 ```plantuml
 @startuml
+skinparam backgroundColor transparent
+skinparam ArrowColor white
 
-@startuml
 
 RECTANGLE "Change Shape" as ChangeShape
 RECTANGLE "Remove Air" as RemoveAir
@@ -82,6 +85,9 @@ ChangeShape --> ChangeHeight
 
 ```plantuml
 @startuml
+skinparam backgroundColor transparent
+skinparam ArrowColor white
+
 
 RECTANGLE "Move-Semi-Finished-Sheet" as MoveSheet
 RECTANGLE ActuateMotion
@@ -102,6 +108,9 @@ MoveSheet --> CollectSpeedInfo
 
 ```plantuml
 @startuml
+skinparam backgroundColor transparent
+skinparam ArrowColor white
+
 
 RECTANGLE "Temperature Control" as TemperatureControl
 RECTANGLE "Keep Temperature" as KeepTemperature
@@ -121,6 +130,9 @@ TemperatureControl --> AdjustTemperature
 
 ``` plantuml
 @startuml
+skinparam backgroundColor transparent
+skinparam ArrowColor white
+
 
 RECTANGLE "Control System" as ControlSystem
 RECTANGLE "Synchronising" as Synchronising

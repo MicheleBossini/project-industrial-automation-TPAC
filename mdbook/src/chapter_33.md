@@ -9,12 +9,9 @@ component Interfaces_diagram {
     [frame]
     () placement -u- frame
     [Cylinder]
-    () input_0 -- Cylinder
-    () output_0 -- Cylinder
     () "contact\nsensor" -- Cylinder
 
     [sensor]
-    sensor --> input_0 : connected
     sensor --> "sensor\nposition"
     
     Cylinder -> placement
@@ -25,7 +22,6 @@ component Interfaces_diagram {
    
     room -u-> placement
     Cylinder --> "Cylinder\npower"
-    room -r-> output_0
     
     [Haul_Off]
     () "sensor\nposition" -- Haul_Off
@@ -45,6 +41,29 @@ component Interfaces_diagram {
     [Infrared_lamp]
     Infrared_lamp -> room
     Thermoplastic -->Infrared_lamp
+    
+    [Extruder]
+    Extruder --> room
+    Thermoplastic --> Extruder
+    
+    [Safety_Alarm]
+    Safety_Alarm --> room
+    Safety_Alarm --> Cylinder
+    Safety_Alarm --> Haul_Off
+    Safety_Alarm --> Extruder
+     
+    [Rails]
+    Rails --> press
+    Rails --> room
+
+    [Synchronization_Board]
+    Synchronization_Board --> Rails
+    Synchronization_Board --> Cylinder
+    Synchronization_Board --> Haul_Off
+    Synchronization_Board --> Extruder
+    Synchronization_Board --> room
+    Synchronization_Board --> Safety_Alarm
+
 }
 
 [building]

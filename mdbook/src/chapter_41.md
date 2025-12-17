@@ -11,5 +11,3 @@ The required performance level ensures that:
  - The infrared lamp and cooling system maintain safe and stable material temperature.
  - The press cylinder operates only when the rails are in the correct position.
  - Any abnormal condition or fault can be detected and managed to prevent unsafe operation.
-
-In summary, the performance level defines how safely and reliably the entire extrusion and pressing process is controlled, ensuring correct sequencing, synchronization, and protection of both the machine and the material

@@ -56,3 +56,5 @@ room -r-> energy
 
 @enduml
 ```
+
+This diagram shows how each component of the system influences other components. With the sychronization board as central part in our design.

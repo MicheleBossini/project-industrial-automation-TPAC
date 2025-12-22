@@ -58,8 +58,9 @@ end note
 This diagram illustrates the linear extrusion process flow, showing the interaction between:
 - Extruder
 - Linear Rail System
-- Press
+- Press and cylinder
 - Haul Off
-- Cutter
+- Cooling and heating system 
+- Saffety alarm and emergency stop
 
 The process includes initialization, continuous production cycle, and emergency stop handling.

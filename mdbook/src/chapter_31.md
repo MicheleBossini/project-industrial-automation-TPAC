@@ -150,5 +150,5 @@ ControlSystem --> AutomaticOperation
 @enduml
 ```
 
-By clicking on the link below, you can found a visio document with a more global overview of the fuctions and subfunctions of our system: </br>
+By clicking on the link below, you can find a vision document with a more global overview of the fuctions and subfunctions of our system: </br>
 <https://saxion.sharepoint.com/:u:/t/O365-Course-Team-113290-group1.1/IQC5_6aaVeivTbQaTa35-auuAYjk7ukBJ9kNE6T3V2QY3Co?e=alpWVY>

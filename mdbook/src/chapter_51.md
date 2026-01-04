@@ -12,7 +12,7 @@ After this, we have summurized our work in a CAD model, to have a virtual image 
 We did most of the prvious searching work and brainstorming togheter in many group meetings and after we all felt confortable with the subject, everyone got parts of the project to work on individualy.
 So, this was a little overview on how we worked during this project. We also had a weekly meeting with our custumer.
 
-# Arne
+## Arne
 In this group project, I worked with three people who did not have the same background as I did. Although I had worked in multidisciplinary groups before, this experience was different because I was not working with other mechanical engineers whom I already knew.</br>
 
 At the start of the project, I assumed that my teammates would follow the same design steps that I was familiar with. However, I quickly realized that they had never worked on a project like this before. This created a challenge for me, as I had to explain many aspects of the design process to them. Doing this required significantly more effort than simply completing the work on my own. At times, I felt that if I had not explained or assisted, certain tasks might not have been completed.</br>
@@ -24,9 +24,16 @@ Overall, the group dynamic was very positive. We worked well together, communica
 In future projects with people from different backgrounds, I will first try to determine everyone’s level of knowledge and experience with the design process. Despite our different backgrounds and skill sets, we collaborated effectively and successfully developed a final design together.</br>
 
 
-# Michele 
+## Michele 
 As you know, I started this minor without any prior experience in project work or mechanical design. However, through this project I feel that I learned a great deal, such as teamwork, organization, design and concept selection, thermoplastic materials, the morphological table, Kesselring graduation, the importance of constant progress, and especially how to approach a project like this from the very beginning in order to reassure the customer and make the concept as clear and solid as possible.</br>
 
 I tried to put in as much effort as possible and to help wherever I could. I truly wanted to actively contribute to this project, even though I know that my contribution was less technical than that of my teammates. I had some difficulties with the language and communication, but I believe I did a good job, and my teammates helped me a lot throughout the process.</br>
 
 Overall, this experience was very positive and valuable for me. It helped me improve my skills, and gain more confidence in working on projects and collaborating in a team, while also giving me a better understanding of how real design projects are developed in a professional environment.</br>
+
+## Hugo
+I found this project very interesting and very challenging. As I had no previous experience in designing group projects, this project brought me a lot of knowledge in many aspects: thermoplastics,design process, communication, professional environment and team working. </br>
+
+As I am also a mechanical engineer, but with a different background, I always tried to ask questions about the other's ideas to make sure that I really understand what they ment, to see if I agree on that and to add something to the idea. This was definitly a good way to work for me, espascialy in this international group where missunderstanding can easely happened. </br>
+
+So I will left the Netherlands with a great experience eventhough we did not finish everything in this project!</br>

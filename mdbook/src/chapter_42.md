@@ -14,6 +14,10 @@ Risk evaluation: judgement, on the basis of risk analysis, of whether risk reduc
 
 Risk assessment: overall process comprising risk analysis and risk evaluation. </br>
 
+## Risk reduction process
+
+The example of a risk reduction process used in the NEN-EN-ISO 13849-1:2023, will be used as a guideline for determining the limits, hazards and risk of the design.
+
 ![Risk reduction process](./riskreduction.png)
 
 After the final design was chosen, the limits of the machine where summed up in a table together with the hazards caused by those limits. the consequences where noted. Then, the risk was given a grade between 1-25, determined by the product of grading the effect and the chance of the risk both between 1-5. Then a potential measure is thought of, and the risk is graded again, with measure.

@@ -7,4 +7,4 @@ In this chapter, the entire process will be analyzed:
 - [Interactions between the different parts of the final concept](chapter_34.md)
  
 
-Additionally, the chapter will discuss the methodology used, the reasoning behind the choices made, and some considerations regarding the integration of the various components
+Additionally, this chapter will discuss the methodology used, the interfaces, the interaction between all the components, and how the communication works. It will also describe every function and subfunction that make up the entire project in order to ensure that all requirements are met.
